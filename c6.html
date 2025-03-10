@@ -1,0 +1,153 @@
+<html>
+<head>
+	<title> Chapter 6</title>
+<link rel="stylesheet" href="css.css"><style>
+x{color:blue;}
+</style>
+ </head>
+<body> 
+<a href="con.html"> CONTENTS</a> 
+<a href="c1.html"> CHAPTER 1</a> 
+<a href="c2.html"> CHAPTER 2</a> 
+<a href="c3.html"> CHAPTER 3</a> 
+<a href="c4.html"> CHAPTER 4</a> 
+<a href="c5.html"> CHAPTER 5</a> 
+<a href="c6.html"> CHAPTER 6</a> 
+<a href="c7.html"> CHAPTER 7</a> 
+<a href="c8.html"> CHAPTER 8</a> <br>
+
+<header> 
+CHAPTER-6<br>
+WEB TECHNOLOGY 1 </header>
+
+    <h1>Introduction to Web Development</h1>
+    <p>Web development involves creating, building, and maintaining websites and web applications. It encompasses everything from simple static web pages to complex web applications, e-commerce platforms, and social networks. Web development is broadly divided into front-end (client-side) and back-end (server-side) development, with full-stack development covering both areas.</p>
+
+    <h2>Web Browsers and Search Engines</h2>
+    <p><strong>Web Browsers:</strong> Tools like Google Chrome, Mozilla Firefox, and Safari that allow users to access and view websites. They interpret HTML, CSS, and JavaScript to render web pages.</p>
+    <p><strong>Search Engines:</strong> Platforms like Google, Bing, and Yahoo that index web content and allow users to search for information. They use algorithms to rank websites based on relevance and quality.</p>
+
+    <h2>Overview of Various Internet & Web Technologies</h2>
+    <ul>
+        <li><strong>HTTP/HTTPS:</strong> Protocols used for transferring data over the web. HTTPS is the secure version of HTTP.</li>
+        <li><strong>FTP:</strong> File Transfer Protocol, used for uploading files to a web server.</li>
+        <li><strong>APIs:</strong> Application Programming Interfaces that allow different software systems to communicate with each other.</li>
+        <li><strong>Web Servers:</strong> Software like Apache and Nginx that host and serve web pages to users.</li>
+    </ul>
+
+    <h2>Content Management System (CMS)</h2>
+    <p>A CMS is a software platform that allows users to create, manage, and modify website content without needing to write code. Popular CMS platforms include:</p>
+    <ul>
+        <li><strong>WordPress:</strong> Widely used for blogs and business websites.</li>
+        <li><strong>Joomla:</strong> A flexible CMS for more complex websites.</li>
+        <li><strong>Drupal:</strong> Known for its scalability and security, often used for large websites.</li>
+    </ul>
+
+    <h1>HTML: The Language of the Web</h1>
+    <p>HTML (HyperText Markup Language) is the standard language for creating web pages. It provides the structure of a webpage.</p>
+    
+    <h2>Objectives</h2>
+    <p>HTML is used to structure content on the web, including text, images, links, and multimedia.</p>
+
+    <h2>Structure of an HTML Document</h2>
+
+       <!DOCTYPE html> <br>
+<html><br>
+<head><br>
+    <title>Page Title</title><br>
+</head><br>
+<body><br>
+    <h1>Heading</h1><br>
+    <p>Paragraph text.</p><br>
+</body><br>
+</html> <br>   <br>
+
+    <h2>Basic HTML Elements</h2>
+    <ul>
+        <li><strong>HTML Tags vs. Attributes:</strong> Tags define elements (e.g., <code>&lt;p&gt;</code> for paragraphs), while attributes provide additional information (e.g., <code>class="example"</code>).</li>
+        <li><strong>Headings:</strong> <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> define content hierarchy.</li>
+        <li><strong>Paragraphs:</strong> The <code>&lt;p&gt;</code> tag is used for paragraph text.</li>
+        <li><strong>Break Line:</strong> <code>&lt;br&gt;</code> inserts a line break.</li>
+        <li><strong>Comments:</strong> Written as <code>&lt;!-- This is a comment --&gt;</code>.</li>
+    </ul>
+
+    <h2>Text Formatting</h2>
+    <p>HTML provides formatting tags such as:</p>
+    <ul>
+        <li><code>&lt;b&gt;</code> for bold text.</li>
+        <li><code>&lt;i&gt;</code> for italic text.</li>
+        <li><code>&lt;u&gt;</code> for underlined text.</li>
+    </ul>
+
+    <h2>Lists</h2>
+    <ul>
+        <li><strong>Ordered lists:</strong> <code>&lt;ol&gt;</code> uses numbers or letters.</li>
+        <li><strong>Unordered lists:</strong> <code>&lt;ul&gt;</code> uses bullet points.</li>
+    </ul>
+
+    <h1>Tables and Forms</h1>
+    <h2>Tables</h2>
+    <p>Tables display data in a grid format using <code>&lt;table&gt;</code>, <code>&lt;tr&gt;</code>, <code>&lt;th&gt;</code>, and <code>&lt;td&gt;</code> tags.</p>
+    
+        <table> <br>
+    <tr>
+        <th>Name</th><br>
+
+        <th>Age</th><br>
+
+    </tr>
+    <tr>
+        <td>John</td><br>
+
+        <td>25</td><br>
+
+    </tr>
+</table>   
+
+    <h2>Forms</h2>
+    <p>Forms collect user input using elements such as:</p>
+    <ul>
+        <li>Textboxes (<code>&lt;input type="text"&gt;</code>)</li>
+        <li>Radio buttons (<code>&lt;input type="radio"&gt;</code>)</li>
+        <li>Checkboxes (<code>&lt;input type="checkbox"&gt;</code>)</li>
+        <li>Text areas (<code>&lt;textarea&gt;</code>)</li>
+        <li>Buttons (<code>&lt;button&gt;</code> or <code>&lt;input type="submit"&gt;</code>)</li>
+    </ul>
+
+    <h1>HTML5 Elements</h1>
+    <h2>Multimedia</h2>
+    <p>HTML5 introduced <code>&lt;audio&gt;</code> and <code>&lt;video&gt;</code> tags for embedding multimedia.</p>
+    <pre>
+        &lt;video controls&gt;
+            &lt;source src="movie.mp4" type="video/mp4"&gt;
+            Your browser does not support the video tag.
+        &lt;/video&gt;
+    </pre>
+
+    <h2>Graphics</h2>
+    <ul>
+        <li><code>&lt;canvas&gt;</code> for drawing graphics via JavaScript.</li>
+        <li><code>&lt;svg&gt;</code> for vector-based images.</li>
+    </ul>
+<section>
+        <h2>Domain Name and Web Hosting</h2>
+        <p><strong>Domain Name:</strong> A human-readable address (e.g., www.example.com) that points to a website’s IP address.</p>
+        <p><strong>Web Hosting:</strong> A service that stores website files on a server, making them accessible online. Hosting providers include Bluehost, HostGator, and AWS.</p>
+    </section>
+
+    <section>
+        <h1>Cascading Style Sheets (CSS)</h1>
+        <p><strong>CSS</strong> is used to style and layout web pages. It separates content (HTML) from design (CSS).</p>
+        
+        <h2>Inline CSS Example:</h2>
+        <p style="color: red;">This is a red paragraph.</p>
+        
+        <h2>Embedded CSS Example:</h2>
+        <p><x>This paragraph is styled with blue color.</x></p>
+        
+        <h2>External CSS Example:</h2>
+        <p> Except for the aboe two line the whole document is styled using external css</p>
+    </section>
+
+</body>
+</html>
